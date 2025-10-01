@@ -17,9 +17,9 @@ class ProgressPostController extends Controller
 {
     public function post(Request $request)
     {
-        // 進捗の更新が許可されているPC名であるか確認
+        // 許可されているPC名であるか確認
         $post_enter = PCNameEnum::checkExclusionPCName($request->pc_name);
-        // 進捗を更新しても問題なければ実施
+        // 問題なければ実施
         if($post_enter){
             // 送信されてきたパラメータの進捗をテーブルから取得
             $progress = Progress::where('customer_code', $request->customer_code)

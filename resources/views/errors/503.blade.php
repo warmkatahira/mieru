@@ -25,6 +25,8 @@
                 <p class="text-2xl text-center">メンテナンス中です</p>
                 <p class="text-center mt-3">現在システムメンテナンスを行っているため、システムを利用できません。</p>
                 <p class="text-center mt-3">メンテナンス終了まで、しばらくお待ちください。</p>
+                <p class="text-center text-2xl text-red-500 mt-3">2月27日にサイボウズで案内している内容を参照して、接続できるようにして下さい。</p>
+                <p class="text-center text-2xl text-blue-500 mt-10"><a class="bg-blue-100 p-5" href="https://warm-inc.cybozu.com/o/ag.cgi?page=MyFolderMessageView&mDBID=3&mDID=7131&tp=t&flno=259#Follow" target="_blank">サイボウズへ移動する</a></p>
             </div>
         </div>
     </body>

@@ -1,10 +1,10 @@
-// 30秒毎に自動更新
+// 60秒毎に自動更新
 $(document).ready(function() {
     let autoReload;
     function startAutoReload() {
         autoReload = setInterval(function() {
             location.reload();
-        }, 30000);
+        }, 60000);
     }
     // ページ読み込み時に自動更新を開始
     startAutoReload();

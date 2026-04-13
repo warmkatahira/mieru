@@ -70,7 +70,7 @@
     "src": "resources/js/version_mgt/version_mgt.js"
   },
   "resources/js/window_update.js": {
-    "file": "assets/window_update-acfe2282.js",
+    "file": "assets/window_update-45649cbe.js",
     "isEntry": true,
     "src": "resources/js/window_update.js"
   },

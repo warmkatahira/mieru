@@ -13,11 +13,12 @@ final class PCNameEnum extends Enum
 {
     const KATAHIRA  = 'WARM-KATAHIRA2';
     const TAMURA    = 'WARM-TAMURA2';
+    const YAMAMURA  = 'WARM-YAMAMURA2';
 
     // 進捗の更新が許可されているPC名であるか確認
     public static function checkExclusionPCName($pc_name)
     {
-        if($pc_name !== self::KATAHIRA && $pc_name !== self::TAMURA){
+        if($pc_name !== self::KATAHIRA && $pc_name !== self::TAMURA && $pc_name !== self::YAMAMURA){
             return true;
         }else{
             return false;

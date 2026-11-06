@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-f5676550.css",
+    "file": "assets/app-a0d3031c.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -30,7 +30,7 @@
     "src": "resources/js/item/item.js"
   },
   "resources/js/progress/category_select.js": {
-    "file": "assets/category_select-9b76db5d.js",
+    "file": "assets/category_select-1eadb39c.js",
     "isEntry": true,
     "src": "resources/js/progress/category_select.js"
   },

@@ -31,16 +31,12 @@
     <body>
         <!-- アラート表示 -->
         <x-alert/>
-        <div class="mt-3">
-            <p class="text-2xl text-center text-theme-main">業務進捗確認アプリ</p>
-            <p class="text-7xl text-center text-theme-main">ミエル</p>
-        </div>
-        <div class="flex justify-center mt-10">
-            @auth
-                <a href="{{ route('top.index') }}" class="text-5xl bg-theme-main text-white py-20 px-36"><i class="las la-meh-rolling-eyes mr-2 la-lg"></i>トップ</a>
-            @else
-                <a href="{{ route('login') }}" class="text-5xl bg-theme-main text-white py-20 px-10 w-full xl:w-96"><i class="las la-sign-in-alt mr-2 la-lg"></i>ログイン</a>
-            @endauth
+        <div class="min-h-screen flex flex-col items-center justify-center bg-theme-main px-6 py-10">
+            <img src="{{ asset('image/mieru_logo.svg') }}" alt="ミエル" class="w-64 lg:w-96 motion-safe:animate-fade-up">
+            <p class="text-lg lg:text-xl text-theme-sub motion-safe:animate-fade-up-delay-1">業務進捗確認アプリ</p>
+            <a href="{{ route('login') }}" class="mt-10 block w-full max-w-xs rounded-lg bg-white py-3 text-center text-base text-theme-main shadow-sm transition hover:-translate-y-0.5 hover:bg-theme-sub hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-theme-main motion-safe:animate-fade-up-delay-2">
+                <i class="las la-sign-in-alt la-lg mr-1"></i>ログイン
+            </a>
         </div>
     </body>
 </html>

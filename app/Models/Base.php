@@ -18,10 +18,10 @@ class Base extends Model
         'base_name',
         'shortened_base_name',
     ];
-    // 全て取得
+    // 全て取得(閉鎖したロジステーションプラスは除外)
     public static function getAll()
     {
-        return self::orderBy('base_id', 'asc');
+        return self::where('base_id', '!=', '09_LSP')->orderBy('base_id', 'asc');
     }
     // customersテーブルとのリレーション
     public function customers()
